@@ -37,8 +37,4 @@ app.listen(PORT, () => {
   console.log(`Server is running at http://localhost:${PORT}`);
 });
 
-// http://localhost:3000/auth/google
-// https://qcsmlab-555fa.uc.r.appspot.com/auth/google
-// gcloud app deploy --version=weather-app --project=qcsmlab-555fa
-
 module.exports = app;
